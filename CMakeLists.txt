@@ -10,3 +10,5 @@ add_executable(Minimum LocalMinimum/Minimum.cpp)
 add_executable(Candies Candies/Candies.cpp)
 
 add_executable(Couple Couple/Couple.cpp)
+
+add_executable(AnotherCouple AnotherCouple/AnotherCouple.cpp)

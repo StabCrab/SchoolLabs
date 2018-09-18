@@ -53,7 +53,7 @@ int main()
                 close[1].y = point.y;
             }
         }
-        if (point.x < 0 && point.y > 0)
+        if (point.x < 0 && point.y < 0)
         {
             kol[2]++;
 
@@ -63,7 +63,7 @@ int main()
                 close[2].y = point.y;
             }
         }
-        if (point.x < 0 && point.y < 0)
+        if (point.x < 0 && point.y > 0)
         {
             kol[3]++;
 
@@ -110,6 +110,6 @@ int main()
             }
         }
     }
-    printf("%d %d (%d, %d)", count, r[count], close[count].x, close[count].y,);
+    printf("%d %d (%d, %d)", count, r[count], close[count].x, close[count].y);
     return 0;
 }

@@ -14,3 +14,11 @@ add_executable(Couple Couple/Couple.cpp)
 add_executable(AnotherCouple AnotherCouple/AnotherCouple.cpp)
 
 add_executable(Points Points/Points.cpp)
+
+add_executable(String String/String.cpp)
+
+add_executable(Couple2 Couple2/Couple2.cpp)
+
+add_executable(Left Left/Left.cpp)
+
+add_executable(Navigate Navigate/Navigate.cpp)

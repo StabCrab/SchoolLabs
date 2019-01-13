@@ -25,7 +25,7 @@ int main()
                     num_buffer.clear();
                     break;
                 case 'W':
-                    x+= stoi(num_buffer);
+                    x-= stoi(num_buffer);
                     num_buffer.clear();
                     break;
                 default:

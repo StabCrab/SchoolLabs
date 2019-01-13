@@ -22,3 +22,49 @@ add_executable(Couple2 Couple2/Couple2.cpp)
 add_executable(Left Left/Left.cpp)
 
 add_executable(Navigate Navigate/Navigate.cpp)
+
+add_executable(Soldiers Soldiers/Soldiers.cpp)
+
+add_executable(Delitel Delitel/Delitel.cpp)
+
+add_executable(Gauss Gauss/Gauss.cpp)
+
+add_executable(ArmyTime ArmyTime/ArmyTime.cpp)
+
+add_executable(Mammals Mammals/MainMammal.cpp Mammals/Mammal.h Mammals/Dog.h Mammals/Cat.h Mammals/Human.h Mammals/Mammal.cpp Mammals/Dog.cpp Mammals/Cat.cpp Mammals/Human.cpp)
+
+add_executable(Mnogo Mnogo/Mnogo.cpp)
+
+add_executable(Barmalei Barmalei/Barmalei.cpp)
+
+add_executable(Windows Windows/Windows.cpp)
+
+add_executable(BarmaleiUpgrade BarmaleiUpgrade/BarmaleiUpgrade.cpp)
+
+add_executable(HahKek HahKek/HahKek.cpp)
+
+add_executable(NOK NOK/NOK.cpp)
+
+add_executable(Iterator Iterator/Iterator.cpp)
+
+add_executable(TwoContainers TwoContainers/TwoContainers.cpp)
+
+add_executable(Different Different/Different.cpp)
+
+add_executable(YesNo YesNo/YesNo.cpp)
+
+add_executable(Tree Tree/Tree.cpp)
+
+add_executable(Santa Santa/Santa.cpp)
+
+add_executable(Heroes_III_4ever Heroes_III_4ever/Heroes_III_4ever.cpp)
+
+add_executable(Animals Animals/Animals.cpp)
+
+add_executable(Virus Virus/Virus.cpp)
+
+add_executable(Middle Middle/Middle.cpp)
+
+add_executable(Palindrom Palindrom/Palindrom.cpp)
+
+add_executable(SumEge SumEge/SumEge.cpp)

@@ -20,7 +20,7 @@ int main()
             case 0: {
                 if (a < rem0 || a < Rem0)
                 {
-                    if (f0 == false)
+                    if (!f0)
                     {
                         f0 = true;
                         rem0 = a;
@@ -45,7 +45,7 @@ int main()
             case 3: {
                 if (a < rem3 || a < Rem3)
                 {
-                    if (f3 == false)
+                    if (!f3)
                     {
                         f3 = true;
                         rem3 = a;

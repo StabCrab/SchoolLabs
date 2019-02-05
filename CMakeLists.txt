@@ -68,3 +68,23 @@ add_executable(Middle Middle/Middle.cpp)
 add_executable(Palindrom Palindrom/Palindrom.cpp)
 
 add_executable(SumEge SumEge/SumEge.cpp)
+
+add_executable(SuperMin SuperMin/SuperMin.cpp)
+
+add_executable(MaxPr MaxPr/MaxPr.cpp)
+
+add_executable(Exp Exp/Exp.cpp)
+
+add_executable(Crusade Crusade/Crusade.cpp)
+
+add_executable(CrusadeII CrusadeII/CrusadeII.cpp)
+
+add_executable(HahEge HahEge/HahEge.cpp)
+
+add_executable(Kekopoly Kekopoly/Kekopoly.cpp Kekopoly/Player.h Kekopoly/Area.h Kekopoly/Area.cpp Kekopoly/Player.cpp)
+
+add_executable(Control Control/Control.cpp)
+
+add_executable(7_but_49 7_but_49/7_but_49.cpp)
+
+add_executable(Pride Pride/Pride.cpp)

@@ -88,3 +88,39 @@ add_executable(Control Control/Control.cpp)
 add_executable(7_but_49 7_but_49/7_but_49.cpp)
 
 add_executable(Pride Pride/Pride.cpp)
+
+add_executable(Minprkr3 Minprkr3/Minprkr3.cpp)
+
+add_executable(Minprkr3na2 Minprkr3na2/Minprkr3na2.cpp)
+
+add_executable(Minprnekr3 Minprnekr3/Minprnekr3.cpp)
+
+add_executable(Minprkr6na2 Minprkr6na2/Minprkr6na2.cpp)
+
+add_executable(Minprkr6 Minprkr6/Minprkr6.cpp)
+
+add_executable(Minsumkr9na2 Minsumkr9na2/Minsumkr9na2.cpp)
+
+add_executable(Minsumkr9 Minsumkr9/Minsumkr9.cpp)
+
+add_executable(LengthSum LengthSum/LengthSum.cpp)
+
+add_executable(Kolsumkr8 Kolsumkr8/Kolsumkr8.cpp)
+
+add_executable(Diapazon Diapazon/Diapazon.cpp)
+
+add_executable(MinSumkr3Diapmore5 MinSumkr3Diapmore5/MinSumkr3Diapmore5.cpp)
+
+add_executable(MinPrkr3Diapout4 MinPrkr3Diapout4/MinPrkr3Diapout4.cpp)
+
+add_executable(MinPrkr6Diapout4 MinPrkr6Diapout4/MinPrkr6Diapout4.cpp)
+
+add_executable(KolPrKr3Diapout4 KolPrKr3Diapout4/KolPrKr3Diapout4.cpp)
+
+add_executable(Vitaz Vitaz/Vitaz.cpp)
+
+add_executable(Fib Fib/Fib.cpp)
+
+add_executable(DvaChisla DvaChisla/DvaChisla.cpp)
+
+add_executable(Check Check/Check.cpp)

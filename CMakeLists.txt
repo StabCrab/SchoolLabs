@@ -71,7 +71,7 @@ add_executable(SumEge SumEge/SumEge.cpp)
 
 add_executable(SuperMin SuperMin/SuperMin.cpp)
 
-add_executable(MaxPr MaxPr/MaxPr.cpp)
+add_executable(MaxPrKr3 MaxPrKr3/MaxPrKr3.cpp)
 
 add_executable(Exp Exp/Exp.cpp)
 
@@ -124,3 +124,23 @@ add_executable(Fib Fib/Fib.cpp)
 add_executable(DvaChisla DvaChisla/DvaChisla.cpp)
 
 add_executable(Check Check/Check.cpp)
+
+add_executable(Maxsumkr3 Maxsumkr3/Maxsumkr3.cpp)
+
+add_executable(KolParKr6 KolParKr6/KolParKr6.cpp)
+
+add_executable(MaxPrKr6Diapout5 MaxPrKr6Diapout5/MaxPrKr6Diapout5.cpp)
+
+add_executable(KolSumkr3DiapOut5 KolSumkr3DiapOut5/KolSumkr3DiapOut5.cpp)
+
+add_executable(KolPsumKr18Diapout5 KolPsumKr18Diapout5/KolPsumKr18Diapout5.cpp)
+
+add_executable(Skobka Skobka/Skobka.cpp)
+
+add_executable(abc abc/abc.cpp)
+
+add_executable(SysSch SysSch/SysSch.cpp)
+
+add_executable(Kolprkr3diapin6na2 Kolprkr3diapin6na2/Kolprkr3diapin6na2.cpp)
+
+add_executable(Kolprkr3diapin6 Kolprkr3diapin6/Kolprkr3diapin6.cpp)

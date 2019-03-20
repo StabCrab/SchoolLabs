@@ -3,8 +3,25 @@
 #include <algorithm>
 
 using namespace std;
+bool compare(string a, string b)
+{
+    if (a.length() > b.length())
+        return true;
+    if (a.length() < b.length())
+        return false;
+    for (int i = 0; i < a.length(); i++)
+    {
+        if (a[i] > b[i])
+            return true;
+        if (a[i] < b[i])
+            return false;
+    }
+    return true;
+}
 string minuss(string a, string b)
 {
+    std:: reverse(a.begin(), a.end());
+    std:: reverse(b.begin(), b.end());
     for (int i = 0; i < max(a.length(), b.length()); i++)
     {
         if (isalpha(a[i]) ||(isalpha(b[i])))
@@ -26,12 +43,15 @@ string minuss(string a, string b)
     {
         a.erase(a.end() - 1);
     }
+    std:: reverse(a.begin(), a.end());
     return a;
 }
 string sum(string a, string b)
 {
+    std:: reverse(a.begin(), a.end());
+    std:: reverse(b.begin(), b.end());
     bool if10 = false;
-    for (int i = 0; i < min(a.length(), b.length()); i++)
+    for (int i = 0; i < max(a.length(), b.length()); i++)
     {
         if (isalpha(a[i]) ||(isalpha(b[i])))
         {
@@ -56,6 +76,7 @@ string sum(string a, string b)
     }
     if(if10)
         a += '1';
+    std:: reverse(a.begin(), a.end());
     return a;
 }
 int main()
@@ -63,12 +84,18 @@ int main()
     string a, b, c;
     cin >> a;
     cin >> b;
-    std:: reverse(a.begin(), a.end());
-    std:: reverse(b.begin(), b.end());
-    c = sum(a, b);
-    std:: reverse(c.begin(), c.end());
-    cout << c << endl;
-    c = minuss(a, b);
-    std:: reverse(c.begin(), c.end());
-    cout << c;
+    if (compare(a, b))
+    {
+        c = sum(a, b);
+        cout << c << endl;
+        c = minuss(a, b);
+        cout << c;
+    }
+    else
+    {
+        c = sum(b, a);
+        cout << c << endl;
+        c = minuss(b, a);
+        cout << c;
+    }
 }
